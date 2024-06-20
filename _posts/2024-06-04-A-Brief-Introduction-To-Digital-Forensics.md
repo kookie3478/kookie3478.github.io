@@ -15,45 +15,53 @@ In the case of digital forensics, usually electronic evidence is collected. Elec
 for example--
 Let's say a company suffers from a data breach. A forensics analyst would investigate how the attacker got into the system and what actions were performed on their network, also, the analyst has to detect whether there was any manipulation of the company's database. In such cases, data has to be recovered from any damaged hardware.
 
-## Types of Forensics ##
-1. Computer Forensics: Investigation of computers and digital storage devices to identify, preserve, analyze, and present evidence.
+### Types of Forensics ###
+#1. Computer Forensics:
+Investigation of computers and digital storage devices to identify, preserve, analyze, and present evidence.
 Examples: Analyzing hard drives, solid-state drives (SSDs), and removable storage to recover deleted files, emails, browsing history, and system logs.
 
-2. Network Forensics: Monitoring and analyzing network traffic to detect and investigate network-based attacks, data breaches, and unauthorized activities.
+#2. Network Forensics:
+Monitoring and analyzing network traffic to detect and investigate network-based attacks, data breaches, and unauthorized activities.
 Examples: Capturing and examining packets, and logs from routers, firewalls, and intrusion detection systems (IDS).
 Various log files recovered from digital analysis:
-## *System Logs (Syslogs)*:
+*System Logs (Syslogs)*:
 Purpose: Record general system events such as reboots, hardware issues, software updates, and other critical events.
 Content: Includes timestamps, event descriptions, severity levels, and source IP addresses.
 
-## *Traffic Logs*:
+*Traffic Logs*:
 Purpose: Monitor and record network traffic passing through the router.
 Content: Details about source and destination IP addresses, port numbers, protocols used, and the amount of data transmitted.
 
-## *Event Logs*:
+*Event Logs*:
 Purpose: Record specific events like user logins, configuration changes, and failed login attempts.
 Content: Usernames, timestamps, event types, and any changes made to the router’s configuration.
 
-## *Firewall Logs*:
+*Firewall Logs*:
 Purpose: Record information about traffic that has been allowed or blocked by the router's firewall.
 Content: Source and destination IP addresses, port numbers, action taken (allowed/blocked), and reasons for blocking.
 
-3. Mobile Forensics: Retrieval and analysis of data from mobile devices like smartphones, tablets, and wearables.
+#3. Mobile Forensics: 
+Retrieval and analysis of data from mobile devices like smartphones, tablets, and wearables.
 Examples: Recovering call logs, text messages, photos, app data, GPS locations, and deleted data from Android and iOS devices.
 
-4. Database Forensics: Examination of databases and their metadata to uncover tampering, data theft, or unauthorized access.
+#4. Database Forensics: 
+Examination of databases and their metadata to uncover tampering, data theft, or unauthorized access.
 Examples: Investigating SQL databases to track changes, recover deleted records, and analyze transaction logs.
 
-5. Memory Forensics: Analysis of volatile memory (RAM) to capture data that is lost when the device is powered off.
+#5. Memory Forensics: 
+Analysis of volatile memory (RAM) to capture data that is lost when the device is powered off.
 Examples: Examining memory dumps for running processes, network connections, encryption keys, and malicious code.
 
-6. Malware Forensics: Investigation of malicious software to understand its behavior, origin, and impact.
+#6. Malware Forensics: 
+Investigation of malicious software to understand its behavior, origin, and impact.
 Examples: Analyzing malware samples to determine how they infect systems, spread, and what data they compromise or steal.
 
-7. Forensic Data Analysis: Examination of large datasets to detect patterns, anomalies, and hidden connections.
+#7. Forensic Data Analysis: 
+Examination of large datasets to detect patterns, anomalies, and hidden connections.
 Examples: Using data mining and big data analytics to uncover fraud, financial crimes, and insider threats.
 
-8. Multimedia Forensics:  Analysis of digital multimedia files (images, audio, video) to verify authenticity, detect tampering, and extract metadata.
+#8. Multimedia Forensics:  
+Analysis of digital multimedia files (images, audio, video) to verify authenticity, detect tampering, and extract metadata.
 Examples: Using techniques like steganalysis to detect hidden messages, examining EXIF data, and analyzing audio files for signs of editing.
 
 
